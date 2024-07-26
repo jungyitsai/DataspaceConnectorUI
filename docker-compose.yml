@@ -2,7 +2,7 @@ version: '3.5'
 
 services:
     dataspace-connector-ui:
-        image: dataspace-connector-ui
+        image: ghcr.io/international-data-spaces-association/dataspace-connector-ui:sha-1d4426a
         environment:
             - CONNECTOR_URL=https://localhost:8080
             - CONNECTOR_USER=admin
