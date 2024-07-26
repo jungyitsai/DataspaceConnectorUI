@@ -1,3 +1,10 @@
+## Run Steps ( merged Dataspace Connector )
+
+Run docker image:
+```bash
+sudo docker-compose up
+```
+
 ## Dataspace Connector UI
 
 User interface for the [Dataspace Connector](https://github.com/International-Data-Spaces-Association/DataspaceConnector).

@@ -1,7 +1,13 @@
 version: '3.5'
 
 services:
+    dataspace-connector:
+        container_name: "dc"
+        image: ghcr.io/international-data-spaces-association/dataspace-connector:latest
+        ports:
+            - "8080:8080"
     dataspace-connector-ui:
+        container_name: "dci"
         image: ghcr.io/international-data-spaces-association/dataspace-connector-ui:sha-1d4426a
         environment:
             - CONNECTOR_URL=https://localhost:8080
