@@ -7,7 +7,7 @@ services:
         ports:
             - "8080:8080"
     dataspace-connector-ui:
-        container_name: "dci"
+        container_name: "dc-ui"
         image: ghcr.io/international-data-spaces-association/dataspace-connector-ui:sha-1d4426a
         environment:
             - CONNECTOR_URL=https://dc:8080
